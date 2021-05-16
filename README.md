@@ -24,9 +24,9 @@ The metrics as calculated by any of the models and printed in the corresponding 
 
 
 ###### TFIDF:   1.0,    0.7888,   0.9695
-###### W2V:   0.613, 0.354, 0.874
-###### D2V:   0.925, 0.385, 0.907
-###### RNN:   0.9807, 0.9533, 0.9874
+###### W2V:    0.613, 0.354, 0.874
+###### D2V:    0.925, 0.385, 0.907
+###### RNN:    0.9807, 0.9533, 0.9874
 
 
 ### Result Analysis
