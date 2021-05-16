@@ -37,7 +37,7 @@ The W2V's results are much worse than those of TFIDF for all the three of precis
 The D2V's results are better than those by the Word_2_Vec model in all the 3 precision, recall and accuracy metrics which is normal considering the Word_2_Vec's drawback with averaging word vectors for each text message. However, the model did not beat the TFIDF model. So far, adding more complexity to the model, which is the case with both Word_2_Vec and Doc_2_Vec models, has not resulted in any improvement to the TFIDF model.
 
 #### RNN:
-The RNN model outperformed Word_2_Vec and Doc_2_Vec in all the 3 metrics, and the TFIDF model in accuracy and recall metrics while the precision is almost as good. The improvement in recall though is significant.
+The RNN model outperformed W2V and D2V in all the 3 metrics, and the TFIDF model in accuracy and recall metrics while the precision is almost as good. The improvement in recall though is significant.
 
 ## Conclusion
 It is fully clear that TFIDF and RNN outperfom W2V and D2V by a huge margin. TFIDF seems even more promising with respect to the fact that for the nature of this problem, precision outweighs recall. However, the RNN delivers better accuracy and much better recall at a cost of a slightly worse precision compared to TFIDF. These make RNN a great choice as well. Depending on the importance of either metric to the user, and the complexity of the models, either modedel could be applied.
