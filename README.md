@@ -22,10 +22,12 @@ About the nature of this problem, for users it is very important to receive and 
 
 The metrics as calculated by any of the models and printed in the corresponding notebooks are lited below for precision, recall and accuracy, respectively:
 
+
 #### TFIDF: 1.0, 0.7888, 0.9695
 #### W2V: 0.613, 0.354, 0.874
 #### D2V: 0.925, 0.385, 0.907
 #### RNN: 0.9807, 0.9533, 0.9874
+
 
 ### Result Analysis
 If we take TFIDF as the base model for our comparison, each of the W2V, D2V and RNN models ad more complexity to the model incrementaly as mentioned. Taking a quick look at the result suggests that TFIDF, while being the least complex, returns almost the best outcome, especially, that for this problem, precision is the most important metric. Though, RNN, in accuracy, slightly outperforms, and in recall, dramatically outperforms TFIDF. Below is more analysis on resultes by W2V, D2V and RNN.
