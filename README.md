@@ -14,9 +14,9 @@ In the following, a data cleanning function, "CleanData", is programmed dropping
 
 Four different models are trained, tested and compared for the problem: TFIDF, Word_2_Vec (W2V), Doc_2_Vec (D2V) and a Recurrent Neural Network (RNN). Three metrics are considered to evaluate each model and compare them:
 
-Precision: The probability  if a message detected as a spam is truely spam
-Recall: The probability a spam is detected as a spam
-Accuracy: The probability if a text message, no matter spam or ham, is correctly classified.
+###### Precision: The probability  if a message detected as a spam is truely spam
+###### Recall: The probability a spam is detected as a spam
+###### Accuracy: The probability if a text message, no matter spam or ham, is correctly classified.
 
 About the nature of this problem, for users it is very important to receive and read all the ham messages, and they would care a little less if they receive a few spam messages. In other words, the precision is more important than recall and accuracy.
 
