@@ -8,15 +8,15 @@ https://www.kaggle.com/uciml/sms-spam-collection-dataset/activity
 The dataset, collected for SMS spam research, is named "spam.csv" and includes 5572 text messages labelled as spam or ham. 
 
 ## Preprocessing
-In the following, a data cleanning function, "CleanData", is programmed dropping mostly blank columns, removing punctuations and stop words, and tokenizing the text messages. Finally, the dataset is split into 4 different sets representing training and test sets and their corresponding labels: x_train, x_test, y_train, y_test. 80% of the original dataset is considered for the training set and 20% for the test set.
+In the following, a data cleanning function, "CleanData", is programmed dropping mostly blank columns, removing punctuations and stopwords, and tokenizing the text messages. Finally, the dataset is split into 4 different sets representing training and test sets and their corresponding labels: x_train, x_test, y_train, y_test. 80% of the original dataset is considered for the training set and 20% for the test set.
 
 ## The four models
 
 Four different models are trained, tested and compared for the problem: TFIDF, Word_2_Vec (W2V), Doc_2_Vec (D2V) and a Recurrent Neural Network (RNN). Three metrics are considered to evaluate each model and compare them:
 
-###### Precision: The probability  if a message detected as a spam is truely spam
-###### Recall: The probability that a spam is detected as a spam
-###### Accuracy: The probability if a text message, no matter spam or ham, is correctly classified.
+##### Precision: The probability  if a message detected as a spam is truely spam
+##### Recall: The probability that a spam is detected as a spam
+##### Accuracy: The probability if a text message, no matter spam or ham, is correctly classified.
 
 About the nature of this problem, for users it is very important to receive and read all the ham messages, and they would care a little less if they receive a few spam messages. In other words, the precision is more important than recall and accuracy.
 
